@@ -42,3 +42,15 @@ C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\
 C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\GalaSoft.MvvmLight.Extras.xml
 C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
 C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\System.Reactive.dll
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\System.Reactive.xml
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\LiveCharts.dll
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\LiveCharts.pdb
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\LiveCharts.xml
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\PerformanceModeller_Content.g.cs
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\Tests\DemoModel.txt

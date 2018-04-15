@@ -5,6 +5,7 @@ using System.Linq;
 using AutoFixture;
 using Moq;
 using NUnit.Framework;
+using PerformanceModeller.Model;
 
 namespace PerformanceModeller.Tests
 {
@@ -20,8 +21,8 @@ namespace PerformanceModeller.Tests
         [Test]
         public void ParserReturnsAllSamplesFromLogFile()
         {
-            var lines = GetFileLines(path);
-            var samples = CreateRandomSamples(lines.Count());
+            var lines = Utils.GetFileLines(path);
+            var samples = Utils.CreateRandomSamples(lines.Count());
             
             for (int i = 0; i < lines.Count(); i++)
             {
@@ -42,27 +43,6 @@ namespace PerformanceModeller.Tests
             this.path = TestContext.CurrentContext.TestDirectory + "/Tests/LogFile.txt";
             this.readerMock = new Mock<IPerformanceSampleReader>();
             this.parser = new LogFileParser(this.readerMock.Object);
-        }
-
-        private IEnumerable<string> GetFileLines(string fileLoc)
-        {
-            StreamReader file = new StreamReader(fileLoc);
-            string line;
-
-            IList<string> lines = new List<string>();
-            
-            while ((line = file.ReadLine()) != null)
-            {
-                lines.Add(line);
-            }
-
-            return lines;
-        }
-
-        private IEnumerable<PerformanceSample> CreateRandomSamples(int length)
-        {
-            var fixture = new Fixture();
-            return Enumerable.Repeat(0, length).Select(_ => fixture.Create<PerformanceSample>()).ToList();
         }
         
         private LogFileParser parser;

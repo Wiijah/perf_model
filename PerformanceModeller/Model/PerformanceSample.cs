@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PerformanceModeller
+namespace PerformanceModeller.Model
 {
     public class PerformanceSample
     {

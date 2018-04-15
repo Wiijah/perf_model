@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Text.RegularExpressions;
 
-namespace PerformanceModeller
+namespace PerformanceModeller.Model
 {
     public interface IFileParser
     {

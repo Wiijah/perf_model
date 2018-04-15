@@ -1,6 +1,7 @@
 ﻿using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
+using PerformanceModeller.Model;
 
 namespace PerformanceModeller
 {
@@ -11,6 +12,7 @@ namespace PerformanceModeller
             container.Register(Component.For<IMainWindowViewModel>().ImplementedBy<MainWindowViewModel>());
             container.Register(Component.For<IFileParser>().ImplementedBy<LogFileParser>());
             container.Register(Component.For<IPerformanceSampleReader>().ImplementedBy<DemoPerformanceSampleReader>());
+            container.Register(Component.For<IModelGenerator>().ImplementedBy<ModelGenerator>());
         }
     }
 }

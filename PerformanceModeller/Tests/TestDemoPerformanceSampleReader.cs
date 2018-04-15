@@ -1,6 +1,7 @@
 ﻿using System;
 using AutoFixture;
 using NUnit.Framework;
+using PerformanceModeller.Model;
 
 namespace PerformanceModeller.Tests
 {

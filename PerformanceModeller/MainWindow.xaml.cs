@@ -1,4 +1,7 @@
 ﻿using Castle.Windsor;
+using System.Reactive.Linq;
+using LiveCharts;
+using LiveCharts.Wpf;
 
 namespace PerformanceModeller
 {

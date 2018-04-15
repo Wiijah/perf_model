@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace PerformanceModeller
+namespace PerformanceModeller.Model
 {
     public class DemoPerformanceSampleReader : IPerformanceSampleReader
     {

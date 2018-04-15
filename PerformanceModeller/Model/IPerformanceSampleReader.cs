@@ -1,4 +1,4 @@
-﻿namespace PerformanceModeller
+﻿namespace PerformanceModeller.Model
 {
     public interface IPerformanceSampleReader
     {
