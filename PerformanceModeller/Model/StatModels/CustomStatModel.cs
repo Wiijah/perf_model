@@ -1,12 +1,18 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PerformanceModeller.Model
+namespace PerformanceModeller.Model.StatModels
 {
-    public class ModelGenerator : IModelGenerator
+    public class CustomStatModel : IStatModel
     {
-        public string CreateModel(IEnumerable<PerformanceSample> samples, string modelName)
+        public CustomStatModel(IEnumerable<PerformanceSample> samples)
+        {
+            this.samples = samples;
+        }
+        
+        public string GenerateCode(string modelName)
         {
             var model = new StringBuilder("using System;\r\n");
             model.AppendLine("using System.Collections.Generic;");
@@ -46,5 +52,14 @@ namespace PerformanceModeller.Model
 
             return model.ToString();
         }
+
+        public PerformanceSample Sample()
+        {
+            this.rand = new Random();
+            return samples.ElementAt(rand.Next(samples.Count()));
+        }
+
+        private Random rand;
+        private IEnumerable<PerformanceSample> samples;
     }
 }

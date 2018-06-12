@@ -54,3 +54,14 @@ C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\
 C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\LiveCharts.Wpf.xml
 C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\PerformanceModeller_Content.g.cs
 C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\Tests\DemoModel.txt
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\Components\FilePickerComponent.g.cs
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\Components\FilePickerComponent.baml
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\Components\DurationRegexComponent.g.cs
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\Components\DurationRegexComponent.baml
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\Components\ChartComponent.g.cs
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\Components\ChartComponent.baml
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\Components\ModelFittingComponent.g.cs
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\Components\ModelFittingComponent.baml
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\MathNet.Numerics.dll
+C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\bin\Debug\MathNet.Numerics.xml

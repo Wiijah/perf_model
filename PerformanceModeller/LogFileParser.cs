@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
 using PerformanceModeller.Model;
 
 namespace PerformanceModeller
@@ -12,7 +13,7 @@ namespace PerformanceModeller
             this.reader = reader;
         }
         
-        public IEnumerable<PerformanceSample> SamplePerformance(string logFileLocation)
+        public IEnumerable<PerformanceSample> SamplePerformance(string logFileLocation, Regex regex, int groupIndex)
         {
             if (!File.Exists(logFileLocation)) throw new FileNotFoundException("Tried to open non-existent Log file");
 
@@ -23,12 +24,12 @@ namespace PerformanceModeller
 
             while ((line = logFile.ReadLine()) != null)
             {
-                samples.Add(reader.CreateSampleFromLine(line));
+                samples.Add(reader.CreateSampleFromLine(line, regex, groupIndex));
             }
 
             return samples;
         }
 
-        private IPerformanceSampleReader reader;
+        private readonly IPerformanceSampleReader reader;
     }
 }

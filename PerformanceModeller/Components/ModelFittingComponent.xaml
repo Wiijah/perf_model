@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="PerformanceModeller.Components.ModelFittingComponent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:PerformanceModeller.Components"
+             xmlns:viewModels="clr-namespace:PerformanceModeller.Components.ViewModels"
+             d:DataContext="{d:DesignInstance Type=viewModels:ModelFittingComponentViewModel}"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock Text="Fit to:" Grid.Column="0" />
+        <ComboBox Grid.Column="1" ItemsSource="{Binding Models}" SelectedItem="{Binding SelectedModelConstructor}" />
+        <Button Grid.Column="2" Content="Do it!" Command="{Binding FitModelCommand}" />
+    </Grid>
+</UserControl>

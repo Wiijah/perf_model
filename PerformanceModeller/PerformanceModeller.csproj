@@ -62,6 +62,9 @@
     <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df">
       <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
     </Reference>
+    <Reference Include="MathNet.Numerics, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MathNet.Numerics.4.4.0\lib\net461\MathNet.Numerics.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Maps.MapControl.WPF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <HintPath>..\packages\Microsoft.Maps.MapControl.WPF.1.0.0.3\lib\net40-Client\Microsoft.Maps.MapControl.WPF.dll</HintPath>
     </Reference>
@@ -99,20 +102,53 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="IMainWindowViewModel.cs" />
+    <Compile Include="Components\ChartComponent.xaml.cs" />
+    <Compile Include="Components\DurationRegexComponent.xaml.cs" />
+    <Compile Include="Components\FilePickerComponent.xaml.cs" />
+    <Compile Include="Components\ModelFittingComponent.xaml.cs" />
+    <Compile Include="Components\ViewModels\ChartComponentViewModel.cs" />
+    <Compile Include="Components\ViewModels\DurationRegexComponentViewModel.cs" />
+    <Compile Include="Components\ViewModels\FilePickerComponentViewModel.cs" />
+    <Compile Include="Components\ViewModels\ModelFittingComponentViewModel.cs" />
     <Compile Include="Installer.cs" />
     <Compile Include="MainWindowViewModel.cs" />
-    <Compile Include="Model\DemoPerformanceSampleReader.cs" />
+    <Compile Include="Model\CachedItem.cs" />
     <Compile Include="Model\IFileParser.cs" />
-    <Compile Include="Model\IModelGenerator.cs" />
     <Compile Include="Model\IPerformanceSampleReader.cs" />
-    <Compile Include="Model\ModelGenerator.cs" />
+    <Compile Include="Model\ISamplesRepository.cs" />
+    <Compile Include="Model\PerfomanceSchemaSampleReader.cs" />
     <Compile Include="Model\PerformanceSample.cs" />
     <Compile Include="Model\RegexPerformanceSampleReader.cs" />
+    <Compile Include="Model\SamplesRepository.cs" />
+    <Compile Include="Model\StatModelConstructors\CustomStatModelConstructor.cs" />
+    <Compile Include="Model\StatModelConstructors\ExponentialStatModelConstructor.cs" />
+    <Compile Include="Model\StatModelConstructors\IStatModelConstructor.cs" />
+    <Compile Include="Model\StatModelConstructors\LogNormalStatModelConstructor.cs" />
+    <Compile Include="Model\StatModelConstructors\NormalStatModelConstructor.cs" />
+    <Compile Include="Model\StatModelConstructors\StatModelConstructor.cs" />
+    <Compile Include="Model\StatModelConstructors\UniformStatModelConstructor.cs" />
+    <Compile Include="Model\StatModels\CustomStatModel.cs" />
+    <Compile Include="Model\StatModels\ExponentialStatModel.cs" />
+    <Compile Include="Model\StatModels\LogNormalStatModel.cs" />
+    <Compile Include="Model\StatModels\NormalStatModel.cs" />
+    <Compile Include="Model\StatModels\IStatModel.cs" />
+    <Compile Include="Model\StatModels\UniformStatModel.cs" />
+    <Compile Include="PerformanceModels\CauchyDistributionPerformanceModel.cs" />
+    <Compile Include="PerformanceModels\ConstantPerformanceModel.cs" />
+    <Compile Include="PerformanceModels\ExponentialDistributionPerformanceModel.cs" />
+    <Compile Include="PerformanceModels\GaussianDistributionPerformanceModel.cs" />
+    <Compile Include="PerformanceModels\IPerformanceModel.cs" />
+    <Compile Include="PerformanceModels\LogNormalDistributionPerformanceModel.cs" />
+    <Compile Include="PerformanceModels\UniformDistributionPerformanceModel.cs" />
+    <Compile Include="PerformanceModels\WeibullDistributionPerformanceModel.cs" />
     <Compile Include="Tests\LogFileParserTest.cs" />
-    <Compile Include="Tests\TestDemoPerformanceSampleReader.cs" />
-    <Compile Include="Tests\TestModelGenerator.cs" />
+    <Compile Include="Tests\TestRegexPerformanceSampleReader.cs" />
+    <Compile Include="Tests\TestCustomStatModel.cs" />
     <Compile Include="Tests\Utils.cs" />
+    <Page Include="Components\ChartComponent.xaml" />
+    <Page Include="Components\DurationRegexComponent.xaml" />
+    <Page Include="Components\FilePickerComponent.xaml" />
+    <Page Include="Components\ModelFittingComponent.xaml" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

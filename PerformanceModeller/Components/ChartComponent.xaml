@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="PerformanceModeller.Components.ChartComponent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:PerformanceModeller.Components"
+             xmlns:wpf="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:viewModels="clr-namespace:PerformanceModeller.Components.ViewModels"
+             d:DataContext="{d:DesignInstance Type=viewModels:ChartComponentViewModel}"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <wpf:CartesianChart BorderThickness="1" BorderBrush="Black" Margin="5, 5, 5, 5"
+                        MinHeight="100" MinWidth="500" 
+                        Series="{Binding SeriesCollection}" 
+                        LegendLocation="Right">
+        <wpf:CartesianChart.AxisY>
+            <wpf:Axis Title="Probability" />
+        </wpf:CartesianChart.AxisY>
+        <wpf:CartesianChart.AxisX>
+            <wpf:Axis Title="Time Taken (s)" Labels="{Binding Labels}" />
+        </wpf:CartesianChart.AxisX>
+    </wpf:CartesianChart>
+</UserControl>

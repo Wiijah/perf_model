@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using AutoFixture;
 using Moq;
 using NUnit.Framework;
@@ -15,7 +16,7 @@ namespace PerformanceModeller.Tests
         [Test]
         public void ParserThrowsExceptionWhenFileLocationIsIncorrect()
         {
-            Assert.Throws<FileNotFoundException>(() => this.parser.SamplePerformance("./nonExistentFile.txt"));
+            Assert.Throws<FileNotFoundException>(() => this.parser.SamplePerformance("./nonExistentFile.txt", REGEX, GROUP_ID));
         }
 
         [Test]
@@ -28,10 +29,10 @@ namespace PerformanceModeller.Tests
             {
                 var line = lines.ElementAt(i);
                 var sample = samples.ElementAt(i);
-                this.readerMock.Setup(r => r.CreateSampleFromLine(line)).Returns(sample);
+                this.readerMock.Setup(r => r.CreateSampleFromLine(line, REGEX, GROUP_ID)).Returns(sample);
             }
 
-            var res = this.parser.SamplePerformance(path);
+            var res = this.parser.SamplePerformance(path, REGEX, GROUP_ID);
             
             Assert.That(res, Is.EquivalentTo(samples));
         }
@@ -48,5 +49,8 @@ namespace PerformanceModeller.Tests
         private LogFileParser parser;
         private Mock<IPerformanceSampleReader> readerMock;
         private string path;
+
+        private readonly Regex REGEX = new Regex("Time taken: (.+)");
+        private const int GROUP_ID = 1;
     }
 }
