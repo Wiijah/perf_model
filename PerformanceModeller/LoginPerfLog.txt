@@ -1,0 +1,10 @@
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.632.
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.661.
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.645.
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.670.
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.665.
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.640.
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.638.
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.661.
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.654.
+[2018-06-15 23:15:15] LoginService 100: Response took 00:00:00.647.

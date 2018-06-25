@@ -128,7 +128,7 @@ namespace PerformanceModeller
             
             return durations.Select(s => s == maxVal ? s - 1 : s)
                 .OrderBy(s => s)
-                .GroupBy(s => Math.Floor((s - minVal) / bucketSize) * bucketSize + minVal)
+                .GroupBy(s => Math.Floor((s - minVal) / bucketSize) * bucketSize + minVal - bucketSize / 2)
                 .Select(g => new Tuple<double, double>(g.Key, ((double) g.Count() - 1) / samples.Count()))
                 .Aggregate(Tuple.Create(new List<double>(samples.Count()), new List<double>(samples.Count())),
                     (unpacked, tuple) =>

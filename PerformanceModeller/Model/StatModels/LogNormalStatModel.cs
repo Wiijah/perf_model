@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace PerformanceModeller.Model.StatModels
 {
@@ -14,7 +15,30 @@ namespace PerformanceModeller.Model.StatModels
         
         public string GenerateCode(string modelName)
         {
-            throw new System.NotImplementedException();
+            var model = new StringBuilder("using System;\r\n");
+            model.AppendLine("using System.Collections.Generic;");
+            model.AppendLine("using System.Linq;");
+            model.AppendLine();
+            
+            model.AppendLine("namespace Performance.Models");
+            model.AppendLine("{");
+            model.AppendLine($"\tpublic class {modelName} : IPerformanceModel");
+            model.AppendLine("\t{");
+            model.AppendLine("\t\tprivate IPerformanceModel logNormalModel;");
+            model.AppendLine();
+            model.AppendLine($"\t\tpublic {modelName}()");
+            model.AppendLine("\t\t{");
+            model.AppendLine($"\t\t\tthis.logNormalModel = new LogNormalDistributionPerformanceModel({logScale}, {shape});");
+            model.AppendLine("\t\t}");
+            model.AppendLine();
+            model.AppendLine("\t\tpublic double DrawTime()");
+            model.AppendLine("\t\t{");
+            model.AppendLine("\t\t\treturn this.logNormalModel.DrawTime();");
+            model.AppendLine("\t\t}");
+            model.AppendLine("\t}");
+            model.AppendLine("}");
+
+            return model.ToString();
         }
 
         public PerformanceSample Sample()

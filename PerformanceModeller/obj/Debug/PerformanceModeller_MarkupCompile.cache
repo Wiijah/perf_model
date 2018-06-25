@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\obj\Debug\
+C:\Users\Pierre-Louis\Documents\Workspace\perf_model\PerformanceModeller\obj\Debug\
 PerformanceModeller
 none
 false
 DEBUG;TRACE
-C:\Users\Pierre\Documents\Workspace\PerformanceModeller\PerformanceModeller\App.xaml
+C:\Users\Pierre-Louis\Documents\Workspace\perf_model\PerformanceModeller\App.xaml
 5434240863
 1-56526346
 48544941382
-79-1470974862
+7945646833
 Components\ChartComponent.xaml;Components\DurationRegexComponent.xaml;Components\FilePickerComponent.xaml;Components\ModelFittingComponent.xaml;MainWindow.xaml;
 
 False

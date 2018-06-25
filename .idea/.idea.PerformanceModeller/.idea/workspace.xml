@@ -2,70 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e920e-caf7-4eea-9dd6-5eac55c4b9bf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Components/ChartComponent.xaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Components/DurationRegexComponent.xaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Components/FilePickerComponent.xaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Components/ModelFittingComponent.xaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ChartComponentViewModel.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/DurationRegexComponentViewModel.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/FilePickerComponentViewModel.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ModelFittingComponentViewModel.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/CachedItem.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/ISamplesRepository.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/PerfomanceSchemaSampleReader.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/SamplesRepository.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/CustomStatModelConstructor.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/ExponentialStatModelConstructor.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/IStatModelConstructor.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/LogNormalStatModelConstructor.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/NormalStatModelConstructor.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/StatModelConstructor.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/UniformStatModelConstructor.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/CustomStatModel.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/IStatModel.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/NormalStatModel.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PerformanceModeller/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.PerformanceModeller/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PerformanceModeller/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.PerformanceModeller/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/App.xaml" afterPath="$PROJECT_DIR$/PerformanceModeller/App.xaml" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/App.xaml.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/App.xaml.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/DemoLog.txt" afterPath="$PROJECT_DIR$/PerformanceModeller/DemoLog.txt" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/DemoModel.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/IMainWindowViewModel.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Installer.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Installer.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/LogFileParser.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/LogFileParser.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml" afterPath="$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml.cs" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/MainWindowViewModel.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/MainWindowViewModel.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/DemoPerformanceSampleReader.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/IFileParser.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/IFileParser.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/IModelGenerator.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/IPerformanceSampleReader.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/IPerformanceSampleReader.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/ModelGenerator.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/RegexPerformanceSampleReader.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/RegexPerformanceSampleReader.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/PerformanceModeller.csproj" afterPath="$PROJECT_DIR$/PerformanceModeller/PerformanceModeller.csproj" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Tests/LogFileParserTest.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Tests/LogFileParserTest.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Tests/TestDemoPerformanceSampleReader.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Tests/TestRegexPerformanceSampleReader.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Tests/TestModelGenerator.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Tests/TestCustomStatModel.cs" />
+      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs" />
+      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs" />
+      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/NormalStatModel.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/NormalStatModel.cs" />
+      <change beforePath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/bin/Debug/PerformanceModeller.exe" afterPath="$PROJECT_DIR$/PerformanceModeller/bin/Debug/PerformanceModeller.exe" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/bin/Debug/PerformanceModeller.pdb" afterPath="$PROJECT_DIR$/PerformanceModeller/bin/Debug/PerformanceModeller.pdb" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/App.g.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/App.g.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/App.g.i.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/App.g.i.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/MainWindow.baml" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/MainWindow.baml" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/MainWindow.g.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/MainWindow.g.cs" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/MainWindow.g.i.cs" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/MainWindow.g.i.cs" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.csproj.CoreCompileInputs.cache" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.csproj.FileListAbsolute.txt" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.csproj.GenerateResource.Cache" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.csproj.GenerateResource.Cache" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.csprojResolveAssemblyReference.cache" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.exe" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.exe" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.g.resources" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.g.resources" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.pdb" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller.pdb" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller_MarkupCompile.cache" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller_MarkupCompile.cache" />
       <change beforePath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller_MarkupCompile.lref" afterPath="$PROJECT_DIR$/PerformanceModeller/obj/Debug/PerformanceModeller_MarkupCompile.lref" />
-      <change beforePath="$PROJECT_DIR$/PerformanceModeller/packages.config" afterPath="$PROJECT_DIR$/PerformanceModeller/packages.config" />
+      <change beforePath="$PROJECT_DIR$/WpfApplication1/App.config" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WpfApplication1/App.xaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WpfApplication1/App.xaml.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WpfApplication1/MainWindow.xaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WpfApplication1/MainWindow.xaml.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WpfApplication1/Properties/AssemblyInfo.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WpfApplication1/Properties/Resources.Designer.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WpfApplication1/Properties/Resources.resx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WpfApplication1/WpfApplication1.csproj" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,180 +38,182 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ModelFittingComponentViewModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ModelFittingComponentViewModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-              <folding>
-                <marker date="1527213491991" expanded="false" signature="6:308" ph="..." />
-                <marker date="1527213491991" expanded="true" signature="361:1944" ph="{...}" />
-                <marker date="1527213491991" expanded="true" signature="427:1942" ph="{...}" />
-                <marker date="1527213491991" expanded="true" signature="765:1348" ph="{...}" />
-                <marker date="1527213491991" expanded="true" signature="1063:1336" ph="{...}" />
-                <marker date="1527213491991" expanded="true" signature="1402:1656" ph="{...}" />
-                <marker date="1527213491991" expanded="true" signature="1694:1864" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomStatModelConstructor.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/CustomStatModelConstructor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding>
-                <marker date="1525770891006" expanded="true" signature="102:421" ph="{...}" />
-                <marker date="1525770891006" expanded="true" signature="171:419" ph="{...}" />
-                <marker date="1525770891006" expanded="true" signature="321:413" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainWindowViewModel.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PerformanceModeller/MainWindowViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1314">
-              <caret line="148" column="46" lean-forward="false" selection-start-line="148" selection-start-column="46" selection-end-line="148" selection-end-column="46" />
+            <state relative-caret-position="1725">
+              <caret line="133" column="23" lean-forward="false" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
               <folding>
-                <marker date="1525774256976" expanded="false" signature="6:581" ph="..." />
-                <marker date="1525774256976" expanded="true" signature="612:6125" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="667:6123" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="1149:1460" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="1225:1450" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="1819:2482" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="2586:2741" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="2773:3260" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="2956:3250" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="3293:3617" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="3680:4152" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="3706:3812" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="3901:4142" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="4222:5574" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="4689:4754" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="5363:5562" ph="{...}" />
-                <marker date="1525774256976" expanded="true" signature="5653:5953" ph="{...}" />
+                <marker date="1529907508628" expanded="false" signature="6:581" ph="..." />
+                <marker date="1529907508628" expanded="true" signature="667:6140" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="1149:1460" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="1225:1450" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="1819:2482" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="2586:2741" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="2773:3260" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="2956:3250" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="3293:3617" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="3680:4152" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="3706:3812" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="3901:4142" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="4222:5591" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="4689:4754" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="5380:5579" ph="{...}" />
+                <marker date="1529907508628" expanded="true" signature="5670:5970" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelFittingComponent.xaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ModelFittingComponent.xaml">
+      <file leaf-file-name="ExponentialStatModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+            <state relative-caret-position="210">
+              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="38" selection-end-column="36" />
               <folding>
-                <marker date="1525770835491" expanded="true" signature="0:1224" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;10*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;TextBlock Text=&quot;Fit to:&quot; Grid.Column=&quot;0&quot; /&gt;&#10;        &lt;ComboBox Grid.Column=&quot;1&quot; ItemsSource=&quot;{Binding Models}&quot; SelectedItem=&quot;{Binding SelectedModelConstructor}&quot; /&gt;&#10;        &lt;Button Grid.Column=&quot;2&quot; Content=&quot;Do it!&quot; Command=&quot;{Binding FitModelCommand}&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-                <marker date="1525770835491" expanded="true" signature="725:1209" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;10*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;TextBlock Text=&quot;Fit to:&quot; Grid.Column=&quot;0&quot; /&gt; &lt;ComboBox Grid.Column=&quot;1&quot; ItemsSource=&quot;{Binding Models}&quot; SelectedItem=&quot;{Binding SelectedModelConstructor}&quot; /&gt; &lt;Button Grid.Column=&quot;2&quot; Content=&quot;Do it!&quot; Command=&quot;{Binding FitModelCommand}&quot; /&gt;.../&gt;" />
-                <marker date="1525770835491" expanded="true" signature="740:929" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;10*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
+                <marker date="1529907687212" expanded="true" signature="6:32" ph="..." />
+                <marker date="1529907687212" expanded="true" signature="133:1929" ph="{...}" />
+                <marker date="1529907687212" expanded="true" signature="188:278" ph="{...}" />
+                <marker date="1529907687212" expanded="true" signature="340:1532" ph="{...}" />
+                <marker date="1529907687212" expanded="true" signature="1575:1844" ph="{...}" />
+                <marker date="1529907687212" expanded="true" signature="1655:1724" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChartComponentViewModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ChartComponentViewModel.cs">
+      <file leaf-file-name="LogNormalStatModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+            <state relative-caret-position="450">
+              <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
-                <marker date="1525956828498" expanded="false" signature="6:203" ph="..." />
-                <marker date="1525956828498" expanded="true" signature="256:2893" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="315:2891" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="411:666" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="473:656" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="708:800" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="883:1472" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="1332:1447" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="1527:2757" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="1695:1753" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="1835:2409" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="2165:2395" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="2248:2377" ph="{...}" />
-                <marker date="1525956828498" expanded="true" signature="2628:2732" ph="{...}" />
+                <marker date="1529907792690" expanded="true" signature="6:32" ph="..." />
+                <marker date="1529907792690" expanded="true" signature="131:2085" ph="{...}" />
+                <marker date="1529907792690" expanded="true" signature="202:358" ph="{...}" />
+                <marker date="1529907792690" expanded="true" signature="420:1617" ph="{...}" />
+                <marker date="1529907792690" expanded="true" signature="1660:1948" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IFileParser.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/IFileParser.cs">
+      <file leaf-file-name="NormalStatModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/NormalStatModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="450">
+              <caret line="30" column="115" lean-forward="false" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
               <folding>
-                <marker date="1523810597483" expanded="false" signature="6:71" ph="..." />
-                <marker date="1523810597483" expanded="true" signature="108:268" ph="{...}" />
-                <marker date="1523810597483" expanded="true" signature="143:266" ph="{...}" />
+                <marker date="1529907822364" expanded="true" signature="6:85" ph="..." />
+                <marker date="1529907822364" expanded="true" signature="181:2109" ph="{...}" />
+                <marker date="1529907822364" expanded="true" signature="246:330" ph="{...}" />
+                <marker date="1529907822364" expanded="true" signature="392:1582" ph="{...}" />
+                <marker date="1529907822364" expanded="true" signature="1625:1969" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SamplesRepository.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/SamplesRepository.cs">
+      <file leaf-file-name="UniformStatModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="435">
+              <caret line="29" column="108" lean-forward="false" selection-start-line="29" selection-start-column="108" selection-end-line="29" selection-end-column="108" />
               <folding>
-                <marker date="1524495518080" expanded="false" signature="6:71" ph="..." />
-                <marker date="1524495518080" expanded="true" signature="108:1108" ph="{...}" />
-                <marker date="1524495518080" expanded="true" signature="166:1106" ph="{...}" />
-                <marker date="1524495518080" expanded="true" signature="225:433" ph="{...}" />
-                <marker date="1524495518080" expanded="true" signature="501:624" ph="{...}" />
-                <marker date="1524495518080" expanded="true" signature="706:888" ph="{...}" />
+                <marker date="1529907875693" expanded="true" signature="6:32" ph="..." />
+                <marker date="1529907875693" expanded="true" signature="129:2174" ph="{...}" />
+                <marker date="1529907875693" expanded="true" signature="191:307" ph="{...}" />
+                <marker date="1529907875693" expanded="true" signature="369:1550" ph="{...}" />
+                <marker date="1529907875693" expanded="true" signature="1593:2080" ph="{...}" />
+                <marker date="1529907875693" expanded="true" signature="1743:1879" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogFileParser.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PerformanceModeller/LogFileParser.cs">
+      <file leaf-file-name="GaussianDistributionPerformanceModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/GaussianDistributionPerformanceModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="570">
+              <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
-                <marker date="1523810636697" expanded="false" signature="6:135" ph="..." />
-                <marker date="1523810636697" expanded="true" signature="166:1042" ph="{...}" />
-                <marker date="1523810636697" expanded="true" signature="213:1040" ph="{...}" />
-                <marker date="1523810636697" expanded="true" signature="281:335" ph="{...}" />
-                <marker date="1523810636697" expanded="true" signature="461:975" ph="{...}" />
-                <marker date="1523810636697" expanded="true" signature="825:936" ph="{...}" />
+                <marker date="1529907030854" expanded="true" signature="66:101" ph="///  ... " />
+                <marker date="1529907030854" expanded="true" signature="172:897" ph="{...}" />
+                <marker date="1529907030854" expanded="true" signature="178:215" ph="///  ... " />
+                <marker date="1529907030854" expanded="true" signature="246:283" ph="///  ... " />
+                <marker date="1529907030854" expanded="true" signature="427:534" ph="{...}" />
+                <marker date="1529907030854" expanded="true" signature="540:603" ph="///  ... " />
+                <marker date="1529907030854" expanded="true" signature="630:859" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DurationRegexComponentViewModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/DurationRegexComponentViewModel.cs">
+      <file leaf-file-name="ExponentialDistributionPerformanceModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/ExponentialDistributionPerformanceModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="54" />
               <folding>
-                <marker date="1523810335211" expanded="true" signature="6:39" ph="..." />
-                <marker date="1523810335211" expanded="true" signature="92:262" ph="{...}" />
-                <marker date="1523810335211" expanded="true" signature="159:260" ph="{...}" />
+                <marker date="1529066918029" expanded="true" signature="66:101" ph="///  ... " />
+                <marker date="1529066918029" expanded="true" signature="175:669" ph="{...}" />
+                <marker date="1529066918029" expanded="true" signature="181:218" ph="///  ... " />
+                <marker date="1529066918029" expanded="true" signature="253:324" ph="///  ... " />
+                <marker date="1529066918029" expanded="true" signature="386:450" ph="{...}" />
+                <marker date="1529066918029" expanded="true" signature="502:631" ph="{...}" />
+                <marker date="1529066918029" expanded="true" signature="558:597" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilePickerComponentViewModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/FilePickerComponentViewModel.cs">
+      <file leaf-file-name="LogNormalDistributionPerformanceModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/LogNormalDistributionPerformanceModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="285">
+              <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="83" />
               <folding>
-                <marker date="1523807035868" expanded="false" signature="6:104" ph="..." />
-                <marker date="1523807035868" expanded="true" signature="157:1005" ph="{...}" />
-                <marker date="1523807035868" expanded="true" signature="221:1003" ph="{...}" />
-                <marker date="1523807035868" expanded="true" signature="309:548" ph="{...}" />
-                <marker date="1523807035868" expanded="true" signature="365:538" ph="{...}" />
-                <marker date="1523807035868" expanded="true" signature="595:682" ph="{...}" />
-                <marker date="1523807035868" expanded="true" signature="717:957" ph="{...}" />
+                <marker date="1529066918029" expanded="true" signature="66:101" ph="///  ... " />
+                <marker date="1529066918029" expanded="true" signature="173:741" ph="{...}" />
+                <marker date="1529066918029" expanded="true" signature="179:216" ph="///  ... " />
+                <marker date="1529066918029" expanded="true" signature="253:290" ph="///  ... " />
+                <marker date="1529066918029" expanded="true" signature="423:554" ph="{...}" />
+                <marker date="1529066918029" expanded="true" signature="603:671" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CauchyDistributionPerformanceModel.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/CauchyDistributionPerformanceModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+              <folding>
+                <marker date="1529066918028" expanded="true" signature="66:101" ph="///  ... " />
+                <marker date="1529066918028" expanded="true" signature="170:773" ph="{...}" />
+                <marker date="1529066918028" expanded="true" signature="176:213" ph="///  ... " />
+                <marker date="1529066918028" expanded="true" signature="250:287" ph="///  ... " />
+                <marker date="1529066918028" expanded="true" signature="324:434" ph="///  ... " />
+                <marker date="1529066918028" expanded="true" signature="509:604" ph="{...}" />
+                <marker date="1529066918028" expanded="true" signature="653:735" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomStatModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/CustomStatModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="52" column="36" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="52" selection-end-column="36" />
+              <folding>
+                <marker date="1529066918026" expanded="false" signature="6:85" ph="..." />
+                <marker date="1529066918026" expanded="true" signature="181:2366" ph="{...}" />
+                <marker date="1529066918026" expanded="true" signature="258:314" ph="{...}" />
+                <marker date="1529066918026" expanded="true" signature="376:2107" ph="{...}" />
+                <marker date="1529066918026" expanded="true" signature="1322:1563" ph="{...}" />
+                <marker date="1529066918026" expanded="true" signature="2150:2274" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -275,39 +239,41 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/RegexPerformanceSampleReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70090D3B-B3D1-4D4D-964B-884EDD10803E/02/372ffa71/ColumnDefinition.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70090D3B-B3D1-4D4D-964B-884EDD10803E/84/24a18963/GridLength.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/DurationRegexComponentViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE4B0088-17C8-40D9-A31A-B98084D9C3E5/07/b20dd458/Int32.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ChartComponent.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/App.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ChartComponent.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ChartComponentViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6C46755A-58B2-4F6B-867B-02DA0307F600/e4/118aea63/Enumerable.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/WpfApplication1/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Tests/TestRegexPerformanceSampleReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE4B0088-17C8-40D9-A31A-B98084D9C3E5/a6/c9a0b211/TimeSpan.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B48979BD-2A86-4A1A-9CE7-C60BE98F59BF/31/6996471f/Match.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ModelFittingComponent.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ModelFittingComponent.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ModelFittingComponentViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/ISamplesRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/PerfomanceSchemaSampleReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/SamplesRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Installer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/CachedItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/MainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/IStatModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/CustomStatModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/LogNormalStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/UniformStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/CustomStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/ExponentialStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/IStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/LogNormalStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/NormalStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/StatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/UniformStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/CustomStatModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/IStatModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/NormalStatModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Installer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/LogFileParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/MainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/IFileParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/IPerformanceSampleReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/RegexPerformanceSampleReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Tests/LogFileParserTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Tests/TestRegexPerformanceSampleReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/PerformanceSample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Tests/TestCustomStatModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Tests/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ModelFittingComponent.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ChartComponent.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/FilePickerComponent.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/DurationRegexComponent.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/ExponentialDistributionPerformanceModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/WeibullDistributionPerformanceModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/UniformDistributionPerformanceModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -316,34 +282,15 @@
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/IPerformanceModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/ConstantPerformanceModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/GaussianDistributionPerformanceModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/IStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/StatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F6E70350-B81B-4B67-A86E-BBC5866A81CE/bd/4370f0a6/RuntimeMethodInfo.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/NormalStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/CustomStatModelConstructor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/FilePickerComponent.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FCDCE6C-8B57-4704-8732-CCE828D694DA/ad/7052d5f1/Normal.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/LogFileParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/FilePickerComponent.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/IFileParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70090D3B-B3D1-4D4D-964B-884EDD10803E/94/b84c391c/XamlReader.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/FilePickerComponentViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/PerformanceSample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/IPerformanceSampleReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FCDCE6C-8B57-4704-8732-CCE828D694DA/cc/7babccd0/IDistribution.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Tests/LogFileParserTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70090D3B-B3D1-4D4D-964B-884EDD10803E/60/f2b9f0cc/FrameworkElement.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B48979BD-2A86-4A1A-9CE7-C60BE98F59BF/62/57c96e11/INotifyPropertyChanged.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/70090D3B-B3D1-4D4D-964B-884EDD10803E/fa/6f55adec/Application.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B65ED225-4D5D-4CFC-81C6-5139C240A394/df/81bb3c33/ViewModelBase.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE4B0088-17C8-40D9-A31A-B98084D9C3E5/ce/f4a2a36d/EventArgs.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Tests/TestCustomStatModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/PerfomanceSchemaSampleReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Tests/Utils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA07E4A3-DBFF-4009-86E1-FA0DA51C098B/a2/1f2dfea3/DefaultComponentActivator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ChartComponent.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/DurationRegexComponent.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/DurationRegexComponent.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/FilePickerComponent.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ModelFittingComponent.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ChartComponentViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/DurationRegexComponentViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/FilePickerComponentViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ModelFittingComponentViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PerformanceModeller/Model/CachedItem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -372,8 +319,6 @@
         <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/CauchyDistributionPerformanceModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/ConstantPerformanceModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/ExponentialDistributionPerformanceModel.cs" />
-        <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/GaussianDistributionPerformanceModel.cs" />
-        <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/IPerformanceModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/LogNormalDistributionPerformanceModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/UniformDistributionPerformanceModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/WeibullDistributionPerformanceModel.cs" />
@@ -387,18 +332,20 @@
         <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/CustomStatModelConstructor.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/CustomStatModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/Tests/TestCustomStatModel.cs" />
-        <option value="$PROJECT_DIR$/PerformanceModeller/MainWindowViewModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ChartComponentViewModel.cs" />
-        <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs" />
-        <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/NormalStatModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/LogNormalStatModelConstructor.cs" />
-        <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/UniformStatModelConstructor.cs" />
-        <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ModelFittingComponentViewModel.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/ExponentialStatModelConstructor.cs" />
-        <option value="$PROJECT_DIR$/PerformanceModeller/Installer.cs" />
         <option value="$PROJECT_DIR$/PerformanceModeller/Model/PerfomanceSchemaSampleReader.cs" />
+        <option value="$PROJECT_DIR$/PerformanceModeller/Installer.cs" />
+        <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/IPerformanceModel.cs" />
+        <option value="$PROJECT_DIR$/PerformanceModeller/PerformanceModels/GaussianDistributionPerformanceModel.cs" />
+        <option value="$PROJECT_DIR$/PerformanceModeller/MainWindowViewModel.cs" />
+        <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs" />
+        <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs" />
+        <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/NormalStatModel.cs" />
+        <option value="$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs" />
       </list>
     </option>
   </component>
@@ -429,6 +376,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PerformanceModeller (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PerformanceModeller (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PerformanceModeller" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -444,43 +409,6 @@
           </expand>
           <select />
         </subPane>
-      </pane>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="PerformanceModeller (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="PerformanceModeller (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="PerformanceModeller" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="PerformanceModeller (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="PerformanceModeller" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Components" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="PerformanceModeller (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="PerformanceModeller" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Components" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="ViewModels" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="PerformanceModeller (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="PerformanceModeller" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Model" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -562,11 +490,14 @@
       <workItem from="1524495779348" duration="2801000" />
       <workItem from="1525188616171" duration="16198000" />
       <workItem from="1527211557560" duration="9330000" />
+      <workItem from="1529068229396" duration="3358000" />
+      <workItem from="1529906989224" duration="915000" />
+      <workItem from="1529907921817" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70719000" />
+    <option name="totallyTimeSpent" value="74997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -578,29 +509,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43756905" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -665,8 +596,21 @@
           </properties>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/PerformanceModeller/Model/PerfomanceSchemaSampleReader.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/PerformanceModeller/Model/PerfomanceSchemaSampleReader.cs" initialLine="11">
+            <startOffsets>
+              <startOffset value="332" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="350" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -682,34 +626,9 @@
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/ModelGenerator.cs" />
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatFitters/IStatFitter.cs" />
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatFitters/NormalStatFitter.cs" />
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/IPerformanceSampleReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F6E70350-B81B-4B67-A86E-BBC5866A81CE/bd/4370f0a6/RuntimeMethodInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="537" column="8" lean-forward="false" selection-start-line="537" selection-start-column="8" selection-end-line="537" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FCDCE6C-8B57-4704-8732-CCE828D694DA/ad/7052d5f1/Normal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FCDCE6C-8B57-4704-8732-CCE828D694DA/cc/7babccd0/IDistribution.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F6E70350-B81B-4B67-A86E-BBC5866A81CE/bd/4370f0a6/RuntimeMethodInfo.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FCDCE6C-8B57-4704-8732-CCE828D694DA/ad/7052d5f1/Normal.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FCDCE6C-8B57-4704-8732-CCE828D694DA/cc/7babccd0/IDistribution.cs" />
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/UniformDistributionPerformanceModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -724,34 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/ExponentialDistributionPerformanceModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/IPerformanceModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/CauchyDistributionPerformanceModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6C46755A-58B2-4F6B-867B-02DA0307F600/e4/118aea63/Enumerable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="606" column="39" lean-forward="false" selection-start-line="606" selection-start-column="39" selection-end-line="606" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6C46755A-58B2-4F6B-867B-02DA0307F600/e4/118aea63/Enumerable.cs" />
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/ConstantPerformanceModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -766,31 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/LogNormalDistributionPerformanceModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/GaussianDistributionPerformanceModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/IStatModelConstructor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/CustomStatModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -805,63 +676,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding>
-            <marker date="1525771189511" expanded="false" signature="6:166" ph="..." />
-            <marker date="1525771189511" expanded="true" signature="260:1399" ph="{...}" />
-            <marker date="1525771189511" expanded="true" signature="334:1393" ph="{...}" />
-            <marker date="1525771189511" expanded="true" signature="411:825" ph="{...}" />
-            <marker date="1525771189511" expanded="true" signature="1090:1213" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA07E4A3-DBFF-4009-86E1-FA0DA51C098B/a2/1f2dfea3/DefaultComponentActivator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3690">
-          <caret line="205" column="8" lean-forward="false" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/NormalStatModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding>
-            <marker date="1527211895938" expanded="false" signature="6:66" ph="..." />
-            <marker date="1527211895938" expanded="true" signature="114:978" ph="{...}" />
-            <marker date="1527211895938" expanded="true" signature="162:976" ph="{...}" />
-            <marker date="1527211895938" expanded="true" signature="227:311" ph="{...}" />
-            <marker date="1527211895938" expanded="true" signature="373:449" ph="{...}" />
-            <marker date="1527211895938" expanded="true" signature="492:836" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA07E4A3-DBFF-4009-86E1-FA0DA51C098B/a2/1f2dfea3/DefaultComponentActivator.cs" />
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/StatModelConstructor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1525770519761" expanded="false" signature="6:57" ph="..." />
-            <marker date="1525770519761" expanded="true" signature="116:433" ph="{...}" />
-            <marker date="1525770519761" expanded="true" signature="189:431" ph="{...}" />
-            <marker date="1525770519761" expanded="true" signature="379:425" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding>
-            <marker date="1527211872936" expanded="true" signature="61:947" ph="{...}" />
-            <marker date="1527211872936" expanded="true" signature="112:945" ph="{...}" />
-            <marker date="1527211872936" expanded="true" signature="183:339" ph="{...}" />
-            <marker date="1527211872936" expanded="true" signature="401:477" ph="{...}" />
-            <marker date="1527211872936" expanded="true" signature="520:808" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,27 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <marker date="1527212280423" expanded="true" signature="6:76" ph="..." />
-            <marker date="1527212280423" expanded="true" signature="135:1013" ph="{...}" />
-            <marker date="1527212280423" expanded="true" signature="207:1011" ph="{...}" />
-            <marker date="1527212280423" expanded="true" signature="360:1005" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="32" column="88" lean-forward="false" selection-start-line="32" selection-start-column="88" selection-end-line="32" selection-end-column="88" />
-          <folding>
-            <marker date="1527212688193" expanded="true" signature="61:1052" ph="{...}" />
-            <marker date="1527212688193" expanded="true" signature="110:1050" ph="{...}" />
-            <marker date="1527212688193" expanded="true" signature="172:288" ph="{...}" />
-            <marker date="1527212688193" expanded="true" signature="350:426" ph="{...}" />
-            <marker date="1527212688193" expanded="true" signature="469:956" ph="{...}" />
-            <marker date="1527212688193" expanded="true" signature="619:755" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,12 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding>
-            <marker date="1527212798685" expanded="true" signature="6:62" ph="..." />
-            <marker date="1527212798685" expanded="true" signature="121:733" ph="{...}" />
-            <marker date="1527212798685" expanded="true" signature="191:731" ph="{...}" />
-            <marker date="1527212798685" expanded="true" signature="342:725" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,27 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="13" column="0" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1525770732889" expanded="false" signature="6:76" ph="..." />
-            <marker date="1525770732889" expanded="true" signature="135:933" ph="{...}" />
-            <marker date="1525770732889" expanded="true" signature="204:931" ph="{...}" />
-            <marker date="1525770732889" expanded="true" signature="354:925" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <marker date="1527213268604" expanded="true" signature="61:796" ph="{...}" />
-            <marker date="1527213268604" expanded="true" signature="114:794" ph="{...}" />
-            <marker date="1527213268604" expanded="true" signature="169:259" ph="{...}" />
-            <marker date="1527213268604" expanded="true" signature="321:397" ph="{...}" />
-            <marker date="1527213268604" expanded="true" signature="440:709" ph="{...}" />
-            <marker date="1527213268604" expanded="true" signature="520:589" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,10 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <marker date="1523983579534" expanded="true" signature="70:254" ph="{...}" />
-            <marker date="1523983579534" expanded="true" signature="112:252" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,12 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <marker date="1527213953008" expanded="true" signature="6:62" ph="..." />
-            <marker date="1527213953008" expanded="true" signature="121:703" ph="{...}" />
-            <marker date="1527213953008" expanded="true" signature="195:700" ph="{...}" />
-            <marker date="1527213953008" expanded="true" signature="350:694" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,58 +726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <marker date="1523805391246" expanded="false" signature="6:51" ph="..." />
-            <marker date="1523805391246" expanded="true" signature="88:589" ph="{...}" />
-            <marker date="1523805391246" expanded="true" signature="163:587" ph="{...}" />
-            <marker date="1523805391246" expanded="true" signature="265:581" ph="{...}" />
-            <marker date="1523805391246" expanded="true" signature="350:517" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Installer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="115" lean-forward="false" selection-start-line="13" selection-start-column="115" selection-end-line="13" selection-end-column="115" />
-          <folding>
-            <marker date="1528357475517" expanded="false" signature="6:231" ph="..." />
-            <marker date="1528357475517" expanded="true" signature="262:1503" ph="{...}" />
-            <marker date="1528357475517" expanded="true" signature="311:1501" ph="{...}" />
-            <marker date="1528357475517" expanded="true" signature="401:1495" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/PerfomanceSchemaSampleReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <marker date="1528357499731" expanded="true" signature="6:51" ph="..." />
-            <marker date="1528357499731" expanded="true" signature="88:766" ph="{...}" />
-            <marker date="1528357499731" expanded="true" signature="163:764" ph="{...}" />
-            <marker date="1528357499731" expanded="true" signature="265:758" ph="{...}" />
-            <marker date="1528357499731" expanded="true" signature="350:694" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding>
-            <marker date="1525766529908" expanded="true" signature="0:2377" ph="&lt;&lt;Grid ShowGridLines=&quot;True&quot;&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;RowDefinition /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &lt;Grid Grid.Row=&quot;0&quot; Margin=&quot;10, 10, 10, 10&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &lt;components:FilePickerComponent Margin=&quot;0, 0, 0, 5&quot; Grid.Row=&quot;0&quot; DataContext=&quot;{Binding FilePickerComponentViewModel}&quot; /&gt;&#10;            &lt;components:DurationRegexComponent Grid.Row=&quot;1&quot; DataContext=&quot;{Binding DurationRegexComponentViewModel}&quot; /&gt;&#10;            &#10;            &lt;Button Content=&quot;Generate&quot;&#10;                    Grid.Row=&quot;2&quot;&#10;                    Command=&quot;{Binding Path=GenerateCommand}&quot;&#10;                    Margin=&quot;0, 10, 5, 0&quot; /&gt;&#10;        &lt;/Grid&gt;&#10;        &lt;Grid Grid.Row=&quot;1&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &lt;components:ChartComponent Grid.Row=&quot;0&quot; DataContext=&quot;{Binding ChartComponentViewModel}&quot; /&gt;&#10;            &lt;components:ModelFittingComponent Grid.Row=&quot;1&quot; DataContext=&quot;{Binding ModelFittingComponentViewModel}&quot; /&gt;&#10;            &lt;Button Grid.Row=&quot;2&quot; &#10;                    Content=&quot;Extract to new Class&quot; &#10;                    IsEnabled=&quot;{Binding ExtractButtonEnabled}&quot;&#10;                    Command=&quot;{Binding ExtractCommand}&quot; /&gt;&#10;        &lt;/Grid&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1525766529908" expanded="true" signature="800:2367" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;RowDefinition /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;Grid Grid.Row=&quot;0&quot; Margin=&quot;10, 10, 10, 10&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &lt;components:FilePickerComponent Margin=&quot;0, 0, 0, 5&quot; Grid.Row=&quot;0&quot; DataContext=&quot;{Binding FilePickerComponentViewModel}&quot; /&gt;&#10;            &lt;components:DurationRegexComponent Grid.Row=&quot;1&quot; DataContext=&quot;{Binding DurationRegexComponentViewModel}&quot; /&gt;&#10;            &#10;            &lt;Button Content=&quot;Generate&quot;&#10;                    Grid.Row=&quot;2&quot;&#10;                    Command=&quot;{Binding Path=GenerateCommand}&quot;&#10;                    Margin=&quot;0, 10, 5, 0&quot; /&gt;&#10;        &lt;/Grid&gt; &lt;Grid Grid.Row=&quot;1&quot;&gt;&#10;            &lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt;&#10;            &lt;components:ChartComponent Grid.Row=&quot;0&quot; DataContext=&quot;{Binding ChartComponentViewModel}&quot; /&gt;&#10;            &lt;components:ModelFittingComponent Grid.Row=&quot;1&quot; DataContext=&quot;{Binding ModelFittingComponentViewModel}&quot; /&gt;&#10;            &lt;Button Grid.Row=&quot;2&quot; &#10;                    Content=&quot;Extract to new Class&quot; &#10;                    IsEnabled=&quot;{Binding ExtractButtonEnabled}&quot;&#10;                    Command=&quot;{Binding ExtractCommand}&quot; /&gt;&#10;        &lt;/Grid&gt;.../&gt;" />
-            <marker date="1525766529908" expanded="true" signature="836:962" ph="&lt;&lt;RowDefinition Height=&quot;Auto&quot; /&gt; &lt;RowDefinition /&gt;.../&gt;" />
-            <marker date="1525766529908" expanded="true" signature="971:1685" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;components:FilePickerComponent Margin=&quot;0, 0, 0, 5&quot; Grid.Row=&quot;0&quot; DataContext=&quot;{Binding FilePickerComponentViewModel}&quot; /&gt; &lt;components:DurationRegexComponent Grid.Row=&quot;1&quot; DataContext=&quot;{Binding DurationRegexComponentViewModel}&quot; /&gt; &lt;Button Content=&quot;Generate&quot;&#10;                    Grid.Row=&quot;2&quot;&#10;                    Command=&quot;{Binding Path=GenerateCommand}&quot;&#10;                    Margin=&quot;0, 10, 5, 0&quot; /&gt;.../&gt;" />
-            <marker date="1525766529908" expanded="true" signature="1027:1227" ph="&lt;&lt;RowDefinition Height=&quot;Auto&quot; /&gt; &lt;RowDefinition Height=&quot;Auto&quot; /&gt; &lt;RowDefinition Height=&quot;Auto&quot; /&gt;.../&gt;" />
-            <marker date="1525766529908" expanded="true" signature="1505:1669" ph="&lt;.../&gt;" />
-            <marker date="1525766529908" expanded="true" signature="1694:2355" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                &lt;RowDefinition /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;                &lt;RowDefinition Height=&quot;Auto&quot; /&gt;&#10;            &lt;/Grid.RowDefinitions&gt; &lt;components:ChartComponent Grid.Row=&quot;0&quot; DataContext=&quot;{Binding ChartComponentViewModel}&quot; /&gt; &lt;components:ModelFittingComponent Grid.Row=&quot;1&quot; DataContext=&quot;{Binding ModelFittingComponentViewModel}&quot; /&gt; &lt;Button Grid.Row=&quot;2&quot; &#10;                    Content=&quot;Extract to new Class&quot; &#10;                    IsEnabled=&quot;{Binding ExtractButtonEnabled}&quot;&#10;                    Command=&quot;{Binding ExtractCommand}&quot; /&gt;.../&gt;" />
-            <marker date="1525766529908" expanded="true" signature="1726:1912" ph="&lt;&lt;RowDefinition /&gt; &lt;RowDefinition Height=&quot;Auto&quot; /&gt; &lt;RowDefinition Height=&quot;Auto&quot; /&gt;.../&gt;" />
-            <marker date="1525766529908" expanded="true" signature="2145:2339" ph="&lt;.../&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,12 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <marker date="1525767609312" expanded="true" signature="0:1335" ph="&lt;&lt;wpf:CartesianChart BorderThickness=&quot;1&quot; BorderBrush=&quot;Black&quot; Margin=&quot;5, 5, 5, 5&quot;&#10;                        MinHeight=&quot;100&quot; MinWidth=&quot;500&quot; &#10;                        Series=&quot;{Binding SeriesCollection}&quot; &#10;                        LegendLocation=&quot;Right&quot;&gt;&#10;        &lt;wpf:CartesianChart.AxisY&gt;&#10;            &lt;wpf:Axis Title=&quot;Probability&quot; /&gt;&#10;        &lt;/wpf:CartesianChart.AxisY&gt;&#10;        &lt;wpf:CartesianChart.AxisX&gt;&#10;            &lt;wpf:Axis Title=&quot;Time Taken (s)&quot; Labels=&quot;{Binding Labels}&quot; /&gt;&#10;        &lt;/wpf:CartesianChart.AxisX&gt;&#10;    &lt;/wpf:CartesianChart&gt;.../&gt;" />
-            <marker date="1525767609312" expanded="true" signature="789:1320" ph="&lt;&lt;wpf:CartesianChart.AxisY&gt;&#10;            &lt;wpf:Axis Title=&quot;Probability&quot; /&gt;&#10;        &lt;/wpf:CartesianChart.AxisY&gt; &lt;wpf:CartesianChart.AxisX&gt;&#10;            &lt;wpf:Axis Title=&quot;Time Taken (s)&quot; Labels=&quot;{Binding Labels}&quot; /&gt;&#10;        &lt;/wpf:CartesianChart.AxisX&gt;.../&gt;" />
-            <marker date="1525767609312" expanded="true" signature="1042:1149" ph="&lt;&lt;wpf:Axis Title=&quot;Probability&quot; /&gt;.../&gt;" />
-            <marker date="1525767609312" expanded="true" signature="1158:1294" ph="&lt;&lt;wpf:Axis Title=&quot;Time Taken (s)&quot; Labels=&quot;{Binding Labels}&quot; /&gt;.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,12 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
-          <folding>
-            <marker date="1523810402408" expanded="true" signature="0:1440" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition /&gt;&#10;            &lt;RowDefinition /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;10*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; Text=&quot;Regex to Match&quot; /&gt;&#10;        &lt;TextBox Grid.Column=&quot;1&quot; Grid.Row=&quot;0&quot; Margin=&quot;7, 0, 0, 0&quot; Text=&quot;{Binding Regex}&quot; /&gt;&#10;            &#10;        &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Text=&quot;Duration Group ID&quot; /&gt;&#10;        &lt;TextBox Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; PreviewTextInput=&quot;GroupIdCheckNumeric&quot; Margin=&quot;7, 0, 0, 0&quot; Text=&quot;{Binding GroupIndex}&quot; /&gt;&#10;    &#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1523810402408" expanded="true" signature="727:1425" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition /&gt;&#10;            &lt;RowDefinition /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;10*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot; Text=&quot;Regex to Match&quot; /&gt; &lt;TextBox Grid.Column=&quot;1&quot; Grid.Row=&quot;0&quot; Margin=&quot;7, 0, 0, 0&quot; Text=&quot;{Binding Regex}&quot; /&gt; &lt;TextBlock Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Text=&quot;Duration Group ID&quot; /&gt; &lt;TextBox Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; PreviewTextInput=&quot;GroupIdCheckNumeric&quot; Margin=&quot;7, 0, 0, 0&quot; Text=&quot;{Binding GroupIndex}&quot; /&gt;.../&gt;" />
-            <marker date="1523810402408" expanded="true" signature="742:854" ph="&lt;&lt;RowDefinition /&gt; &lt;RowDefinition /&gt;.../&gt;" />
-            <marker date="1523810402408" expanded="true" signature="863:1009" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;10*&quot; /&gt;.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,66 +748,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1523807986223" expanded="true" signature="0:1209" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition /&gt;&#10;            &lt;ColumnDefinition /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;Button Width=&quot;100px&quot; &#10;                Grid.Column=&quot;0&quot;&#10;                Content=&quot;Select logs file&quot;&#10;                Margin=&quot;0, 0, 5, 0&quot; &#10;                Command=&quot;{Binding SelectFileCommand}&quot; /&gt;&#10;        &lt;TextBox Grid.Column=&quot;1&quot; MinWidth=&quot;500px&quot; IsReadOnly=&quot;True&quot; Text=&quot;{Binding FilePath}&quot; Name=&quot;FilePath&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1523807986223" expanded="true" signature="721:1194" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition /&gt;&#10;            &lt;ColumnDefinition /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Button Width=&quot;100px&quot; &#10;                Grid.Column=&quot;0&quot;&#10;                Content=&quot;Select logs file&quot;&#10;                Margin=&quot;0, 0, 5, 0&quot; &#10;                Command=&quot;{Binding SelectFileCommand}&quot; /&gt; &lt;TextBox Grid.Column=&quot;1&quot; MinWidth=&quot;500px&quot; IsReadOnly=&quot;True&quot; Text=&quot;{Binding FilePath}&quot; Name=&quot;FilePath&quot; /&gt;.../&gt;" />
-            <marker date="1523807986223" expanded="true" signature="736:860" ph="&lt;&lt;ColumnDefinition /&gt; &lt;ColumnDefinition /&gt;.../&gt;" />
-            <marker date="1523807986223" expanded="true" signature="878:1069" ph="&lt;.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ModelFittingComponent.xaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="270">
           <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-          <folding>
-            <marker date="1525770835491" expanded="true" signature="0:1224" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;10*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;TextBlock Text=&quot;Fit to:&quot; Grid.Column=&quot;0&quot; /&gt;&#10;        &lt;ComboBox Grid.Column=&quot;1&quot; ItemsSource=&quot;{Binding Models}&quot; SelectedItem=&quot;{Binding SelectedModelConstructor}&quot; /&gt;&#10;        &lt;Button Grid.Column=&quot;2&quot; Content=&quot;Do it!&quot; Command=&quot;{Binding FitModelCommand}&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1525770835491" expanded="true" signature="725:1209" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;10*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;TextBlock Text=&quot;Fit to:&quot; Grid.Column=&quot;0&quot; /&gt; &lt;ComboBox Grid.Column=&quot;1&quot; ItemsSource=&quot;{Binding Models}&quot; SelectedItem=&quot;{Binding SelectedModelConstructor}&quot; /&gt; &lt;Button Grid.Column=&quot;2&quot; Content=&quot;Do it!&quot; Command=&quot;{Binding FitModelCommand}&quot; /&gt;.../&gt;" />
-            <marker date="1525770835491" expanded="true" signature="740:929" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;10*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/MainWindowViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="148" column="46" lean-forward="false" selection-start-line="148" selection-start-column="46" selection-end-line="148" selection-end-column="46" />
-          <folding>
-            <marker date="1525774256976" expanded="false" signature="6:581" ph="..." />
-            <marker date="1525774256976" expanded="true" signature="612:6125" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="667:6123" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="1149:1460" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="1225:1450" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="1819:2482" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="2586:2741" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="2773:3260" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="2956:3250" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="3293:3617" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="3680:4152" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="3706:3812" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="3901:4142" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="4222:5574" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="4689:4754" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="5363:5562" ph="{...}" />
-            <marker date="1525774256976" expanded="true" signature="5653:5953" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/FilePickerComponentViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="465">
           <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <marker date="1523807035868" expanded="false" signature="6:104" ph="..." />
-            <marker date="1523807035868" expanded="true" signature="157:1005" ph="{...}" />
-            <marker date="1523807035868" expanded="true" signature="221:1003" ph="{...}" />
-            <marker date="1523807035868" expanded="true" signature="309:548" ph="{...}" />
-            <marker date="1523807035868" expanded="true" signature="365:538" ph="{...}" />
-            <marker date="1523807035868" expanded="true" signature="595:682" ph="{...}" />
-            <marker date="1523807035868" expanded="true" signature="717:957" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,103 +769,256 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1523810335211" expanded="true" signature="6:39" ph="..." />
-            <marker date="1523810335211" expanded="true" signature="92:262" ph="{...}" />
-            <marker date="1523810335211" expanded="true" signature="159:260" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ChartComponentViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-          <folding>
-            <marker date="1525956828498" expanded="false" signature="6:203" ph="..." />
-            <marker date="1525956828498" expanded="true" signature="256:2893" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="315:2891" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="411:666" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="473:656" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="708:800" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="883:1472" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="1332:1447" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="1527:2757" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="1695:1753" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="1835:2409" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="2165:2395" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="2248:2377" ph="{...}" />
-            <marker date="1525956828498" expanded="true" signature="2628:2732" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/IFileParser.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="75">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <marker date="1523810597483" expanded="false" signature="6:71" ph="..." />
-            <marker date="1523810597483" expanded="true" signature="108:268" ph="{...}" />
-            <marker date="1523810597483" expanded="true" signature="143:266" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/SamplesRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="420">
           <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <marker date="1524495518080" expanded="false" signature="6:71" ph="..." />
-            <marker date="1524495518080" expanded="true" signature="108:1108" ph="{...}" />
-            <marker date="1524495518080" expanded="true" signature="166:1106" ph="{...}" />
-            <marker date="1524495518080" expanded="true" signature="225:433" ph="{...}" />
-            <marker date="1524495518080" expanded="true" signature="501:624" ph="{...}" />
-            <marker date="1524495518080" expanded="true" signature="706:888" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/LogFileParser.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <marker date="1523810636697" expanded="false" signature="6:135" ph="..." />
-            <marker date="1523810636697" expanded="true" signature="166:1042" ph="{...}" />
-            <marker date="1523810636697" expanded="true" signature="213:1040" ph="{...}" />
-            <marker date="1523810636697" expanded="true" signature="281:335" ph="{...}" />
-            <marker date="1523810636697" expanded="true" signature="461:975" ph="{...}" />
-            <marker date="1523810636697" expanded="true" signature="825:936" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ModelFittingComponentViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <marker date="1527213491991" expanded="false" signature="6:308" ph="..." />
-            <marker date="1527213491991" expanded="true" signature="361:1944" ph="{...}" />
-            <marker date="1527213491991" expanded="true" signature="427:1942" ph="{...}" />
-            <marker date="1527213491991" expanded="true" signature="765:1348" ph="{...}" />
-            <marker date="1527213491991" expanded="true" signature="1063:1336" ph="{...}" />
-            <marker date="1527213491991" expanded="true" signature="1402:1656" ph="{...}" />
-            <marker date="1527213491991" expanded="true" signature="1694:1864" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModelConstructors/CustomStatModelConstructor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Installer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="101" lean-forward="false" selection-start-line="13" selection-start-column="101" selection-end-line="13" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/LogFileParser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
           <folding>
-            <marker date="1525770891006" expanded="true" signature="102:421" ph="{...}" />
-            <marker date="1525770891006" expanded="true" signature="171:419" ph="{...}" />
-            <marker date="1525770891006" expanded="true" signature="321:413" ph="{...}" />
+            <marker date="1529066918021" expanded="false" signature="6:135" ph="..." />
+            <marker date="1529066918021" expanded="true" signature="213:1040" ph="{...}" />
+            <marker date="1529066918021" expanded="true" signature="281:335" ph="{...}" />
+            <marker date="1529066918021" expanded="true" signature="461:975" ph="{...}" />
+            <marker date="1529066918021" expanded="true" signature="825:936" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/IPerformanceSampleReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/PerfomanceSchemaSampleReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <marker date="1529066918023" expanded="false" signature="6:51" ph="..." />
+            <marker date="1529066918023" expanded="true" signature="163:764" ph="{...}" />
+            <marker date="1529066918023" expanded="true" signature="265:758" ph="{...}" />
+            <marker date="1529066918023" expanded="true" signature="350:694" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/IPerformanceModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ModelFittingComponentViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Components/ViewModels/ChartComponentViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="34" column="64" lean-forward="false" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/MainWindowViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="133" column="23" lean-forward="false" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+          <folding>
+            <marker date="1529907508628" expanded="false" signature="6:581" ph="..." />
+            <marker date="1529907508628" expanded="true" signature="667:6140" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="1149:1460" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="1225:1450" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="1819:2482" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="2586:2741" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="2773:3260" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="2956:3250" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="3293:3617" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="3680:4152" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="3706:3812" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="3901:4142" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="4222:5591" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="4689:4754" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="5380:5579" ph="{...}" />
+            <marker date="1529907508628" expanded="true" signature="5670:5970" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/CustomStatModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <marker date="1529066918026" expanded="false" signature="6:85" ph="..." />
+            <marker date="1529066918026" expanded="true" signature="181:2366" ph="{...}" />
+            <marker date="1529066918026" expanded="true" signature="258:314" ph="{...}" />
+            <marker date="1529066918026" expanded="true" signature="376:2107" ph="{...}" />
+            <marker date="1529066918026" expanded="true" signature="1322:1563" ph="{...}" />
+            <marker date="1529066918026" expanded="true" signature="2150:2274" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/ExponentialDistributionPerformanceModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <marker date="1529066918029" expanded="true" signature="66:101" ph="///  ... " />
+            <marker date="1529066918029" expanded="true" signature="175:669" ph="{...}" />
+            <marker date="1529066918029" expanded="true" signature="181:218" ph="///  ... " />
+            <marker date="1529066918029" expanded="true" signature="253:324" ph="///  ... " />
+            <marker date="1529066918029" expanded="true" signature="386:450" ph="{...}" />
+            <marker date="1529066918029" expanded="true" signature="502:631" ph="{...}" />
+            <marker date="1529066918029" expanded="true" signature="558:597" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/ExponentialStatModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <marker date="1529907687212" expanded="true" signature="6:32" ph="..." />
+            <marker date="1529907687212" expanded="true" signature="133:1929" ph="{...}" />
+            <marker date="1529907687212" expanded="true" signature="188:278" ph="{...}" />
+            <marker date="1529907687212" expanded="true" signature="340:1532" ph="{...}" />
+            <marker date="1529907687212" expanded="true" signature="1575:1844" ph="{...}" />
+            <marker date="1529907687212" expanded="true" signature="1655:1724" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/LogNormalDistributionPerformanceModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="83" />
+          <folding>
+            <marker date="1529066918029" expanded="true" signature="66:101" ph="///  ... " />
+            <marker date="1529066918029" expanded="true" signature="173:741" ph="{...}" />
+            <marker date="1529066918029" expanded="true" signature="179:216" ph="///  ... " />
+            <marker date="1529066918029" expanded="true" signature="253:290" ph="///  ... " />
+            <marker date="1529066918029" expanded="true" signature="423:554" ph="{...}" />
+            <marker date="1529066918029" expanded="true" signature="603:671" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/LogNormalStatModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <marker date="1529907792690" expanded="true" signature="6:32" ph="..." />
+            <marker date="1529907792690" expanded="true" signature="131:2085" ph="{...}" />
+            <marker date="1529907792690" expanded="true" signature="202:358" ph="{...}" />
+            <marker date="1529907792690" expanded="true" signature="420:1617" ph="{...}" />
+            <marker date="1529907792690" expanded="true" signature="1660:1948" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/GaussianDistributionPerformanceModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <marker date="1529907030854" expanded="true" signature="66:101" ph="///  ... " />
+            <marker date="1529907030854" expanded="true" signature="172:897" ph="{...}" />
+            <marker date="1529907030854" expanded="true" signature="178:215" ph="///  ... " />
+            <marker date="1529907030854" expanded="true" signature="246:283" ph="///  ... " />
+            <marker date="1529907030854" expanded="true" signature="427:534" ph="{...}" />
+            <marker date="1529907030854" expanded="true" signature="540:603" ph="///  ... " />
+            <marker date="1529907030854" expanded="true" signature="630:859" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/NormalStatModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="115" lean-forward="false" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
+          <folding>
+            <marker date="1529907822364" expanded="true" signature="6:85" ph="..." />
+            <marker date="1529907822364" expanded="true" signature="181:2109" ph="{...}" />
+            <marker date="1529907822364" expanded="true" signature="246:330" ph="{...}" />
+            <marker date="1529907822364" expanded="true" signature="392:1582" ph="{...}" />
+            <marker date="1529907822364" expanded="true" signature="1625:1969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/Model/StatModels/UniformStatModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="108" lean-forward="false" selection-start-line="29" selection-start-column="108" selection-end-line="29" selection-end-column="108" />
+          <folding>
+            <marker date="1529907875693" expanded="true" signature="6:32" ph="..." />
+            <marker date="1529907875693" expanded="true" signature="129:2174" ph="{...}" />
+            <marker date="1529907875693" expanded="true" signature="191:307" ph="{...}" />
+            <marker date="1529907875693" expanded="true" signature="369:1550" ph="{...}" />
+            <marker date="1529907875693" expanded="true" signature="1593:2080" ph="{...}" />
+            <marker date="1529907875693" expanded="true" signature="1743:1879" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PerformanceModeller/PerformanceModels/CauchyDistributionPerformanceModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <folding>
+            <marker date="1529066918028" expanded="true" signature="66:101" ph="///  ... " />
+            <marker date="1529066918028" expanded="true" signature="170:773" ph="{...}" />
+            <marker date="1529066918028" expanded="true" signature="176:213" ph="///  ... " />
+            <marker date="1529066918028" expanded="true" signature="250:287" ph="///  ... " />
+            <marker date="1529066918028" expanded="true" signature="324:434" ph="///  ... " />
+            <marker date="1529066918028" expanded="true" signature="509:604" ph="{...}" />
+            <marker date="1529066918028" expanded="true" signature="653:735" ph="{...}" />
           </folding>
         </state>
       </provider>
